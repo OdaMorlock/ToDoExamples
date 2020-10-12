@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoAzureSqlCodeFirst", "To
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoCosmosWithEF", "TodoCosmosExample1\TodoCosmosWithEF.csproj", "{4C6E0C7B-B83F-4DFC-90F4-A57284529755}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TodoCosmos", "TodoCosmos\TodoCosmos.csproj", "{97A022BB-0957-417C-A770-F4BEF7BC24F6}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{4C6E0C7B-B83F-4DFC-90F4-A57284529755}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C6E0C7B-B83F-4DFC-90F4-A57284529755}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C6E0C7B-B83F-4DFC-90F4-A57284529755}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97A022BB-0957-417C-A770-F4BEF7BC24F6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97A022BB-0957-417C-A770-F4BEF7BC24F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97A022BB-0957-417C-A770-F4BEF7BC24F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97A022BB-0957-417C-A770-F4BEF7BC24F6}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
