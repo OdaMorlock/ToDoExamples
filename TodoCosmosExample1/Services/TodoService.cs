@@ -30,7 +30,7 @@ namespace TodoCosmosWithEF.Services
         {
             using TodoContext context = new TodoContext();
 
-            return await context.Todos.Where(todo => todo.Id == id).FirstOrDefaultAsync();
+            return await context.Todos.FindAsync(id);
         }
 
         public static async Task<IEnumerable<Todo>> GetTodosByCompletedAsync(bool completed)
@@ -44,7 +44,7 @@ namespace TodoCosmosWithEF.Services
         {
             using TodoContext context = new TodoContext();
 
-            var todo = await context.Todos.Where(todo => todo.Id == id).FirstOrDefaultAsync();
+            var todo = await context.Todos.FindAsync(id);
             // Try 
             if (todo != null)
             {
@@ -60,7 +60,7 @@ namespace TodoCosmosWithEF.Services
         {
             using TodoContext context = new TodoContext();
 
-            var todo = await context.Todos.Where(todo => todo.Id == id).FirstOrDefaultAsync();
+            var todo = await context.Todos.FindAsync(id);
             //Try
             if (todo != null)
             {
